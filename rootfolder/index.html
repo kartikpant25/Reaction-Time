@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>ProjectX</title>
+  </head>
+  <body>
+
+
+    <div id="topbar">
+      <img id ="logo" src="./logo.jpg" alt="ProjectX Logo">
+      <img id ="signin" src="./signin.jpg" alt="SignIn">
+      <span id="signintext">Sign In</span>
+      <img id="wiggly" src="./line.jpg">
+  </div>
+
+  <div id="menubar">
+    <h1>Reaction Tester</h1>
+  </div>
+  <p>Your Time: <span id="timetaken"></span></p>
+
+  <div id="shape"></div>
+
+
+    <script type="text/javascript">
+      var start = new Date().getTime();
+      document.getElementById("shape").onclick = function(){
+        document.getElementById("shape").style.display="none";
+        var end = new Date().getTime();
+        var timetaken = (end-start) / 1000;
+        document.getElementById("timetaken").innerHTML = timetaken + "s";
+      }
+
+    </script>
+  </body>
+</html>

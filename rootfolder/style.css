@@ -1,0 +1,50 @@
+#topbar{
+  width: 1500px;
+  margin: 0 auto;
+  height: 70px;
+}
+#logo{
+  float: left;
+  height: 70px;
+  margin-right: 8px;
+  border-right: 1px solid black;
+}
+#signintext{
+  float:left;
+  margin: 20px;
+  font-family:sans-serif;
+  margin-right: 8px;
+}
+#wiggly{
+  float: left;
+  height: 70px;
+  width: 20px;
+  margin-top: 0.5px;
+}
+#signin{
+  float: left;
+  height: 30px;
+  margin: 14px;
+}
+#menubar{
+  background-color: red;
+  width: 100%;
+  height: 70px;
+}
+h1{
+  padding: 0;
+  margin-top: 2px;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-left: 600px;
+  color: white;
+  font-size: 40px;
+  float: none;
+  font-weight: normal;
+}
+#shape{
+  width: 200px;
+  margin-top: 10px;
+  height: 200px;
+  background-color: red;
+}
